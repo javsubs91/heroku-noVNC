@@ -9,7 +9,8 @@ RUN set -ex; \
     && apt-get install -y --no-install-recommends \
         dbus-x11 \
         nautilus \
-	aria2 \
+	snapd \
+	aria2c \
         gedit \
         expect \
         sudo \
