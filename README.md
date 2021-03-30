@@ -5,6 +5,7 @@
 ### Features:
   - Running on Ubuntu 18.04 Docker Image
   - Google Chrome included
+  - Firefox included
   - Lite Desktop xfce4
   - Easy to use
   - Can be easily customized
