@@ -10,7 +10,7 @@ RUN set -ex; \
         dbus-x11 \
         nautilus \
 	snapd \
-	aria2c \
+	aria2 \
         gedit \
         expect \
         sudo \
