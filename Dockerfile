@@ -57,10 +57,12 @@ RUN chmod +x /app/expect_vnc.sh
 #RUN wget --no-check-certificate -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY -O /app/anydesk.key
 #RUN apt-key add /app/anydesk.key
 #RUN apt-key add /app/linux_signing_key.pub
+#RUN add-apt-repository ppa:stebbins/handbrake-releases
 #RUN set -ex; \
 #    apt-get update \
 #    && apt-get install -y --no-install-recommends \
 #        google-chrome-stable \
+#        handbrake-cli handbrake-gtk \
 #	anydesk
 
 RUN echo xfce4-session >~/.xsession
